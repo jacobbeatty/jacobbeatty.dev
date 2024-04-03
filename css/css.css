@@ -57,7 +57,8 @@ body a {
   background-size: auto;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "landMessage" "footer";
+      grid-template-areas: "landMessage"
+ "footer";
   grid-auto-columns: 100%;
   grid-auto-rows: 80% 20%;
   height: 100vh;
@@ -93,7 +94,7 @@ body a {
   background-color: #e91e6352;
 }
 
-.landing .landMessage h1 em {
+/* .landing .landMessage h1 em {
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
 }
@@ -101,7 +102,7 @@ body a {
 .landing .landMessage h1 span {
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
-}
+} */
 
 .landing .landMessage h1 strong {
   text-decoration: none;
@@ -246,7 +247,8 @@ body a {
 .about {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "mainAbout" "footer";
+      grid-template-areas: "mainAbout"
+ "footer";
   grid-auto-columns: 100%;
   grid-auto-rows: 80% 20%;
   height: 100vh;
@@ -346,7 +348,8 @@ body a {
 .works {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "mainWorks" "footer";
+      grid-template-areas: "mainWorks"
+ "footer";
   grid-auto-columns: 100%;
   grid-auto-rows: 80% 20%;
   height: 100vh;
@@ -567,7 +570,8 @@ body a {
 .articles {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "mainArticles" "footer";
+      grid-template-areas: "mainArticles"
+ "footer";
   grid-auto-columns: 100%;
   grid-auto-rows: 80% 20%;
   height: 100vh;
@@ -585,7 +589,8 @@ body a {
   background-position-x: right;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "mainContact" "footer";
+      grid-template-areas: "mainContact"
+ "footer";
   grid-auto-columns: 100%;
   grid-auto-rows: 80% 20%;
   height: 100vh;
@@ -707,7 +712,8 @@ body a {
   background-position-x: left;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "mainwhatido" "footer";
+      grid-template-areas: "mainwhatido"
+ "footer";
   grid-auto-columns: 100%;
   grid-auto-rows: 80% 20%;
   height: 100vh;
@@ -1716,7 +1722,8 @@ a {
       grid-template-columns: 100%;
   -ms-grid-rows: 12% 88%;
       grid-template-rows: 12% 88%;
-      grid-template-areas: "mobileHeader" "landMessageMobile";
+      grid-template-areas: "mobileHeader"
+ "landMessageMobile";
 }
 
 #landingMobile #landMessageMobile {
@@ -1822,7 +1829,8 @@ a {
       grid-template-columns: 100%;
   -ms-grid-rows: 12% 88%;
       grid-template-rows: 12% 88%;
-      grid-template-areas: "mobileHeader" "aboutMobileMain";
+      grid-template-areas: "mobileHeader"
+ "aboutMobileMain";
 }
 
 #aboutMobile #aboutMobileMain {
@@ -1877,7 +1885,8 @@ a {
       grid-template-columns: 100%;
   -ms-grid-rows: 12% 88%;
       grid-template-rows: 12% 88%;
-      grid-template-areas: "mobileHeader" "worksMobileMain";
+      grid-template-areas: "mobileHeader"
+ "worksMobileMain";
 }
 
 #worksMobile ::-webkit-scrollbar-thumb {
@@ -1971,7 +1980,8 @@ a {
       grid-template-columns: 100%;
   -ms-grid-rows: 10% 90%;
       grid-template-rows: 10% 90%;
-      grid-template-areas: "mobileHeader" "whatidoMobileMain";
+      grid-template-areas: "mobileHeader"
+ "whatidoMobileMain";
 }
 
 #whatidoMobile #whatidoMobileMain {
